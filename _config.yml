@@ -9,11 +9,12 @@
 title: 칼퇴박사
 email: seungil.you@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Seungil You''s personal blog.
+  Seungil You's personal blog.
+  유승일의 개인 블로그입니다.
 baseurl: "/blog_jekyll" # the subpath of your site, e.g. /blog
 url: "http://seungilyou.gihub.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: youclid 
+github_username:  seungilyou 
 
 # Build settings
 markdown: kramdown
