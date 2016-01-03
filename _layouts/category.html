@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% unless page.content == ''%}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+<ul>
+{% for post in site.categories.[page.type] %}
+  <li>
+	<font size=+1> <a href={{ site.baseurl }}{{ post.url }}>{{ post.title }}</a> </font>
+	<font color="grey"><small> {{ post.date | date: '%B %d, %Y'}} </small></font>
+	</li>
+{% endfor %}
+</ul>
