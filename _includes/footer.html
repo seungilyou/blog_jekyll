@@ -25,6 +25,12 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          {% if site.algospot %}
+          <li>
+            {% include icon-algospot.html username=site.algospot.username usernum=site.algospot.usernum %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
